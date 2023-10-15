@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="images.jpg">
+	<title>Game Oẳn Tù Tì</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			text-align: center;
+		}
+		.buttons {
+			margin-top: 20px;
+		}
+		.button {
+			display: inline-block;
+			padding: 10px 20px;
+			background-color: #4CAF50;
+			color: white;
+			font-size: 16px;	
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			margin: 0 10px;
+		}
+		.button:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<h1>Game Oẳn Tù Tì</h1>
+	<p id="game-message"></p>
+	<p>Chọn một trong ba nút bên dưới:</p>
+	<img src="tải xuống (3) (1).png"style="width: 80px; transform: translate(15%,35%); "alt="">
+	<img src="tải xuống (1) (1).png" style="width: 80px; transform: translate(18%,35%);" alt="">
+	<img src="tải xuống (2).png" style="width: 127px; transform: translate(-3%,16%);" alt="">
+	<div class="buttons">
+		<button class="button" onclick="choose('Búa')">Đá</button>
+		<button class="button" onclick="choose('Giấy')">Giấy</button>
+        <button class="button" onclick="choose('Kéo')">Kéo</button>
+	</div>
+    <script src="one-2-3.js"></script>
+</body>
+</html>
